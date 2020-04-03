@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+body div {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  background-color: #eee;
+  border: 1px solid black;
+}
+
+.button {
+  background-color: lightgrey;
+  border: thin solid black;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: darkgray;
+}
+
+.square {
+  background-color: lightblue;
+  width: 90%;
+  height: 90%;
+}
+
+#animate-square,
+#stop-square {
+  position: relative;
+}
+
+.red {
+  background-color: red;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Demo</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+
+    <div>
+      <p id="hide-show" class="button">Click to hide or show the element below!</p>
+      <div id="hide-show-square" class="square"></div>
+    </div>
+
+    <div>
+      <p id="fade-toggle" class="button">Click to make the element below fade in or out!</p>
+      <p id="fade-opacity" class="button">Click to make the element below fade to a certain opacity!</p>
+      <div id="fade-square" class="square"></div>
+    </div>
+
+    <div>
+      <p id="slide" class="button">Click this button to toggle sliding the element.</p>
+      <div id="slide-square" class="square"></div>
+    </div>
+
+    <div>
+      <p id="animate" class="button">Click this button to start the animation on this element.</p>
+      <div id="animate-square" class="square"></div>
+    </div>
+
+    <div>
+      <p id="start" class="button">Click this button to start an animation.</p>
+      <p id="stop" class="button">Click this button to stop the animation.</p>
+      <div id="stop-square" class="square"></div>
+    </div>
+
+    <div>
+      <p id="get" class="button">Click this button to demonstrate get.</p>
+      <p id="set" class="button">Click this button to demonstrate set.</p>
+      <p>You can change the text in here to get a different alert.</p>
+      <div id="get-set-square" class="square">
+        <form>
+          <input type="text" id="get-set-form" value="Hello there!">
+        </form>
+      </div>
+    </div>
+
+    <div>
+      <p id="add" class="button">Click this button to add a paragraph element to the div.</p>
+      <p id="remove" class="button">Click this button to remove all paragraphs you added.</p>
+      <p> if you inspect, you will see the elements being added and removed.</p>
+      <div id="add-remove-square" class="square"></div>
+    </div>
+
+    <div>
+      <p id="class-add" class="button">Click this button to add a 'red' class to the div.</p>
+      <p id="class-remove" class="button">Click this button to remove the 'red' class.</p>
+
+      <div id="class-square" class="square"></div>
+    </div>
+
+    <div>
+      <p id="dimensions" class="button">Use this button to return the size of the div. Resize
+      the page and try again.</p>
+      <div id="dimensions-square" class="square"></div>
+    </div>
+
+  </body>
+</html>
